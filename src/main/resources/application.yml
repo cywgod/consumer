@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: rabbit-receiver
+  rabbitmq:
+    host: 192.168.136.149
+    username: test
+    password: 123
+    virtual-host: /
+    port: 5672
